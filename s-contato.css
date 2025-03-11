@@ -6,15 +6,32 @@
 
 body {
     font-family: Arial, sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
+    color: #333;
+}
+
+header img {
+    width: 200px;
+    border-radius: 30%; /* Deixa a borda arredondada */
+    margin-right: 15px; /* Espaço entre a logo e o título */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
     padding: 20px;
 }
 
 header {
-    text-align: center;
-    padding: 20px 0;
-    background-color: #333;
+    background-color: #940588;
     color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
 }
 
 nav ul {
@@ -31,18 +48,17 @@ nav ul li a {
     text-decoration: none;
 }
 
-.container {
-    max-width: 600px;
-    margin: 30px auto;
-    padding: 20px;
-    background-color: white;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.texto {
+    color: #600883;
+    text-align: center;
+    margin: 40px;
+    font-size: 50px;
 }
 
 form {
     display: flex;
     flex-direction: column;
+    color: #600883;
 }
 
 .form-group {
@@ -64,7 +80,7 @@ form {
 
 button {
     padding: 15px;
-    background-color: #28a745;
+    background-color: #d44eb7;
     color: white;
     border: none;
     border-radius: 4px;
@@ -73,16 +89,13 @@ button {
 }
 
 button:hover {
-    background-color: #218838;
+    background-color: #d44eb7;
 }
 
 footer {
-    text-align: center;
-    padding: 10px;
-    margin-top: 20px;
-    background-color: #333;
+    background-color: #940588;
     color: white;
-    position: relative;
-    bottom: 0;
-    width: 100%;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
 }
