@@ -17,6 +17,19 @@ body {
     padding: 20px;
 }
 
+.contato {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    display: flex; /* Ativa o Flexbox */
+    gap: 50px; /* Espaçamento entre as divs */
+}
+
+.box {
+    padding: 20px;
+    flex: 1; /* Faz com que ambas as divs ocupem o mesmo espaço */
+}
+
 header {
     background-color: #940588;
     color: white;
@@ -97,4 +110,57 @@ footer {
     text-align: center;
     padding: 20px 0;
     margin-top: 40px;
+}
+
+/* MEDIA QUERIES PARA RESPONSIVIDADE */
+
+/* Ajustes para tablets */
+@media (max-width: 1024px) {
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    .texto {
+        font-size: 35px;
+    }
+
+    .contato {
+        flex-direction: column; /* Coloca os itens um abaixo do outro */
+        text-align: center;
+    }
+
+    .box {
+        width: 100%;
+    }
+}
+
+/* Ajustes para celulares */
+@media (max-width: 768px) {
+    header img {
+        position: static;
+        display: block;
+        margin: 0 auto;
+        width: 150px;
+    }
+
+    nav ul {
+        padding: 10px 0;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    .texto {
+        font-size: 30px;
+    }
+
+    .form-group input, .form-group textarea {
+        font-size: 14px;
+    }
+
+    button {
+        font-size: 16px;
+    }
 }
