@@ -27,9 +27,10 @@ header {
 header img {
     position: absolute; /* Posição absoluta para fixar */
     left: 20px; /* Define a distância da borda esquerda */
-    top: 10px; /* Define a distância do topo */
-    width: 200px; /* Ajuste o tamanho conforme necessário */
-    border-radius: 5%;
+    top: 3px; /* Define a distância do topo */
+    width: 280px;
+    height: 100px;
+    border-radius: 90px;
 }
 
 nav ul {
@@ -83,11 +84,33 @@ nav ul li a {
     color: #600883;
 }
 
-.produtos {
+.sobre h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.sobre p {
+    font-size: 20px;
+    max-width: 800px;
+    margin: 10px auto;
+}
+
+.promocoes {
     padding: 60px 0;
     text-align: center;
     color: #600883;
 }
+
+.promocoes h2 {
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+.promocoes p {
+    font-size: 18px;
+    max-width: 800px;
+    margin: 10px auto;
+} 
 
 .vantagens {
     padding: 60px 0;
@@ -96,20 +119,13 @@ nav ul li a {
     color: #600883;
 }
 
-.sobre p {
-    font-size: 18px;
-    max-width: 800px;
-    margin: 10px auto;
+.vantagens h2 {
+    margin-bottom: 30px;
+    font-size: 30px;
 }
 
-.produtos p {
-    font-size: 18px;
-    max-width: 800px;
-    margin: 10px auto;
-} 
-
 .vantagens p {
-    font-size: 18px;
+    font-size: 20px;
     max-width: 800px;
     margin: 10px auto;
 }
